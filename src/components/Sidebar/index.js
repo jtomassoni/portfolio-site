@@ -31,6 +31,9 @@ const Sidebar = ({ isOpen, toggle }) => {
 						contact
 					</SidebarLink>
 				</SidebarMenu>
+				<SideBtnWrap>
+					<SidebarRoute to='/signin'>Sign In</SidebarRoute>
+				</SideBtnWrap>
 			</SidebarWrapper>
 		</SidebarContainer>
 	);
