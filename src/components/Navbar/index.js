@@ -35,9 +35,6 @@ const Navbar = ({ toggle }) => {
 							<NavLinks to='contact'>contact</NavLinks>
 						</NavItem>
 					</NavMenu>
-					<NavBtn>
-						<NavBtnLink to='/signin'>Sign In</NavBtnLink>
-					</NavBtn>
 				</NavbarContainer>
 			</Nav>
 		</>
