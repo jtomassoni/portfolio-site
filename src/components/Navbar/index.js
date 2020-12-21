@@ -12,7 +12,7 @@ import {
 	NavLinks,
 	NavBtn,
 	NavBtnLink,
-} from './NarbarElements';
+} from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
 	const [scrollNav, setScrollNav] = useState(false);
@@ -47,17 +47,6 @@ const Navbar = ({ toggle }) => {
 						<NavMenu>
 							<NavItem>
 								<NavLinks
-									to='about'
-									smooth={true}
-									duration={500}
-									spy={true}
-									exact='true'
-									offset={-80}>
-									about
-								</NavLinks>
-							</NavItem>
-							<NavItem>
-								<NavLinks
 									to='projects'
 									smooth={true}
 									duration={500}
@@ -89,9 +78,6 @@ const Navbar = ({ toggle }) => {
 									contact
 								</NavLinks>
 							</NavItem>
-							<NavBtn>
-								<NavBtnLink to='/signin'>Sign In</NavBtnLink>
-							</NavBtn>
 						</NavMenu>
 					</NavbarContainer>
 				</Nav>
