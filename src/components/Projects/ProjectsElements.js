@@ -9,11 +9,11 @@ export const ProjectsContainer = styled.div`
 	background: #010415;
 
 	@media screen and (max-width: 768px) {
-		height: 3000px;
+		height: 2800px;
 	}
 
 	@media screen and (max-width: 480px) {
-		height: 4000px;
+		height: 2800px;
 	}
 `;
 

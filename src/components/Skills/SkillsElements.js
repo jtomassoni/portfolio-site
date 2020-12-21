@@ -9,11 +9,11 @@ export const SkillsContainer = styled.div`
 	background: #f9f9f9;
 
 	@media screen and (max-width: 768px) {
-		height: 2800px;
+		height: 2700px;
 	}
 
 	@media screen and (max-width: 480px) {
-		height: 4000px;
+		height: 2700px;
 	}
 `;
 
@@ -67,7 +67,6 @@ export const SkillsIcon = styled.img`
 export const SkillsH1 = styled.h1`
 	font-size: 2.5rem;
 	color: #010415;
-	border-bottom: 2px solid #010415;
 	margin: 64px;
 
 	@media screen and (max-width: 80px) {

@@ -14,6 +14,8 @@ export const Container = styled.div`
 	@media screen and (max-width: 780px) {
 		padding: 100px 0;
 	}
+	@media screen and (max-width: 400px) {
+	}
 `;
 
 export const Wrapper = styled.div`
