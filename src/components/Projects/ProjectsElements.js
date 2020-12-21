@@ -35,18 +35,19 @@ export const ProjectsWrapper = styled.div`
 	}
 `;
 
-export const ProjectsCard = styled.div`
+export const ProjectsCard = styled.a`
 	background: #ffffff;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
 	border-radius: 10px;
-	max-height: 400px;
-	// width: 200px;
+	max-height: 420px;
+	width: 300px;
 	padding: 30px;
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 	transition: all 0.2s ease-in-out;
+	text-decoration: none;
 
 	&:hover {
 		transform: scale(1.02);
@@ -54,6 +55,10 @@ export const ProjectsCard = styled.div`
 		color: #ffffff;
 		transition: all 0.2s ease-in-out;
 		cursor: pointer;
+	}
+
+	&:visited {
+		color: black;
 	}
 `;
 
@@ -83,7 +88,7 @@ export const ProjectsP = styled.p`
 	text-align: center;
 	border-bottom: 1px #000000 solid;
 
-	&:hover{
+	&:hover {
 		border-bottom: 1px #ffffff solid;
 	}
 `;
