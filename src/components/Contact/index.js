@@ -9,6 +9,7 @@ import {
 	Form,
 	Label,
 	InputTextArea,
+	InputText,
 	ColumnTwo,
 	Img,
 	ImgContainer,
@@ -25,23 +26,19 @@ const Contact = () => {
 			<Wrapper>
 				<Row imgPosition={true}>
 					<ColumnOne>
-						<Form name='contact-form' method='POST' netlify>
+						<Form>
 							<h1>Contact Me:</h1>
 							<Label htmlFor='name'>Name:</Label>
-							<InputTextArea
+							<InputText
 								type='text'
 								name='name'
-								id='name'
-								form='nameform'
 								onChange={(event) => setName(event.target.value)}
 								value={name}
 							/>
 							<Label htmlFor='email'>Email:</Label>
-							<InputTextArea
+							<InputText
 								type='email'
 								name='email'
-								id='email'
-								form='emailform'
 								onChange={(event) => setEmail(event.target.value)}
 								value={email}
 							/>

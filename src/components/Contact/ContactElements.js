@@ -122,3 +122,7 @@ export const InputTextArea = styled.textarea`
 	width: 100%;
 	resize: none;
 `;
+export const InputText = styled.input`
+	width: 100%;
+	resize: none;
+`;
