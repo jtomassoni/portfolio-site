@@ -1,69 +1,33 @@
-import React, { useState } from 'react';
-import contactpic from '../../images/icons/contact.svg';
+import React from 'react';
 
-import {
-	Container,
-	Wrapper,
-	Row,
-	ColumnOne,
-	Form,
-	Label,
-	InputTextArea,
-	InputText,
-	ColumnTwo,
-	Img,
-	ImgContainer,
-	FormButton,
-} from './DummyElements';
-
-const Contact = () => {
-	const [contact, setContact] = useState();
-	const [name, setName] = useState();
-	const [email, setEmail] = useState();
+const Dummy = () => {
+	const formStyles = {
+		display: 'flex',
+		flexDirection: 'column',
+		margin: '40px',
+	};
 
 	return (
-		<Container altBg={true} id='contact'>
-			<Wrapper>
-				<Row imgPosition={true}>
-					<ColumnOne>
-						<Form>
-							<h1>Contact Me:</h1>
-							<Label htmlFor='name'>Name:</Label>
-							<InputText
-								type='text'
-								name='name'
-								onChange={(event) => setName(event.target.value)}
-								value={name}
-							/>
-							<Label htmlFor='email'>Email:</Label>
-							<InputText
-								type='email'
-								name='email'
-								onChange={(event) => setEmail(event.target.value)}
-								value={email}
-							/>
-							<Label htmlFor='additionalDetails'>Comments:</Label>
-							<InputTextArea
-								type='text'
-								rows='8'
-								name='details'
-								id='details'
-								form='detailsform'
-								onChange={(event) => setContact(event.target.value)}
-								value={contact}
-							/>
-							<FormButton>Submit</FormButton>
-						</Form>
-					</ColumnOne>
-					<ColumnTwo>
-						<ImgContainer>
-							<Img src={contactpic} alt='contact' />
-						</ImgContainer>
-					</ColumnTwo>
-				</Row>
-			</Wrapper>
-		</Container>
+		<div className='Dummy'>
+			<form style={formStyles} name='contact' action='/' method='POST'>
+				<input required type='hidden' name='form-name' value='contact' />
+				<input required type='text' name='name' placeholder='Your name' />
+				<input
+					required
+					type='email'
+					name='email'
+					placeholder='email@domain.com'
+				/>
+				<textarea
+					required
+					name='message'
+					placeholder='Message'
+					cols='30'
+					rows='10'></textarea>
+				<button type='submit'>Send a Message</button>
+			</form>
+		</div>
 	);
 };
 
-export default Contact;
+export default Dummy;
