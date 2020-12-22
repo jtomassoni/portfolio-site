@@ -23,7 +23,6 @@ const Home = () => {
 			<Projects />
 			<Skills />
 			<Contact />
-			<Dummy />
 			<Footer />
 		</>
 	);
