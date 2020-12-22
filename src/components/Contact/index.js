@@ -22,47 +22,52 @@ const Contact = () => {
 	const [email, setEmail] = useState();
 
 	return (
-		<Container altBg={true} id='contact'>
-			<Wrapper>
-				<Row imgPosition={true}>
-					<ColumnOne>
-						<Form>
-							<h1>Contact Me:</h1>
-							<Label htmlFor='name'>Name:</Label>
-							<InputText
-								type='text'
-								name='name'
-								onChange={(event) => setName(event.target.value)}
-								value={name}
-							/>
-							<Label htmlFor='email'>Email:</Label>
-							<InputText
-								type='email'
-								name='email'
-								onChange={(event) => setEmail(event.target.value)}
-								value={email}
-							/>
-							<Label htmlFor='additionalDetails'>Comments:</Label>
-							<InputTextArea
-								type='text'
-								rows='8'
-								name='details'
-								id='details'
-								form='detailsform'
-								onChange={(event) => setContact(event.target.value)}
-								value={contact}
-							/>
-							<FormButton>Submit</FormButton>
-						</Form>
-					</ColumnOne>
-					<ColumnTwo>
-						<ImgContainer>
-							<Img src={contactpic} alt='contact' />
-						</ImgContainer>
-					</ColumnTwo>
-				</Row>
-			</Wrapper>
-		</Container>
+		<form name='example' method='POST' netlify>
+			<input name='something' type='text'></input>
+			<button>submit</button>
+		</form>
+
+		// <Container altBg={true} id='contact'>
+		// 	<Wrapper>
+		// 		<Row imgPosition={true}>
+		// 			<ColumnOne>
+		// 				<Form>
+		// 					<h1>Contact Me:</h1>
+		// 					<Label htmlFor='name'>Name:</Label>
+		// 					<InputText
+		// 						type='text'
+		// 						name='name'
+		// 						onChange={(event) => setName(event.target.value)}
+		// 						value={name}
+		// 					/>
+		// 					<Label htmlFor='email'>Email:</Label>
+		// 					<InputText
+		// 						type='email'
+		// 						name='email'
+		// 						onChange={(event) => setEmail(event.target.value)}
+		// 						value={email}
+		// 					/>
+		// 					<Label htmlFor='additionalDetails'>Comments:</Label>
+		// 					<InputTextArea
+		// 						type='text'
+		// 						rows='8'
+		// 						name='details'
+		// 						id='details'
+		// 						form='detailsform'
+		// 						onChange={(event) => setContact(event.target.value)}
+		// 						value={contact}
+		// 					/>
+		// 					<FormButton>Submit</FormButton>
+		// 				</Form>
+		// 			</ColumnOne>
+		// 			<ColumnTwo>
+		// 				<ImgContainer>
+		// 					<Img src={contactpic} alt='contact' />
+		// 				</ImgContainer>
+		// 			</ColumnTwo>
+		// 		</Row>
+		// 	</Wrapper>
+		// </Container>
 	);
 };
 
