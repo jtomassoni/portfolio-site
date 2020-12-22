@@ -5,7 +5,6 @@ import Navbar from '../components/Navbar';
 import Skills from '../components/Skills';
 import Projects from '../components/Projects';
 import Sidebar from '../components/Sidebar';
-import Dummy from '../components/Dummy';
 import Contact from '../components/Contact';
 
 const Home = () => {
