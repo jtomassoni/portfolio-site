@@ -30,7 +30,6 @@ const Contact = () => {
 							<Label htmlFor='name'>Name:</Label>
 							<InputTextArea
 								type='text'
-								rows='3'
 								name='name'
 								id='name'
 								form='nameform'
@@ -39,8 +38,7 @@ const Contact = () => {
 							/>
 							<Label htmlFor='email'>Email:</Label>
 							<InputTextArea
-								type='text'
-								rows='3'
+								type='email'
 								name='email'
 								id='email'
 								form='emailform'
