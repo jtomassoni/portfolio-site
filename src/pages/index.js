@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar';
 import Skills from '../components/Skills';
 import Projects from '../components/Projects';
 import Sidebar from '../components/Sidebar';
-import Contact from '../components/Contact';
+import Dummy from '../components/Dummy';
 
 const Home = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +21,7 @@ const Home = () => {
 			<HeroSection />
 			<Projects />
 			<Skills />
-			<Contact />
+			<Dummy />
 			<Footer />
 		</>
 	);
