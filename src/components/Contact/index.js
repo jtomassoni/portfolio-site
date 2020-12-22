@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, from 'react';
 import contactpic from '../../images/icons/contact.svg';
 
 import {
@@ -17,9 +17,7 @@ import {
 } from './ContactElements';
 
 const Contact = () => {
-	// const [contact, setContact] = useState();
-	// const [name, setName] = useState();
-	// const [email, setEmail] = useState();
+
 
 	return (
 		<Container altBg={true} id='contact'>

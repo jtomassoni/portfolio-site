@@ -1,23 +1,6 @@
 import React from 'react';
 
-import {
-	Container,
-	Wrapper,
-	Row,
-	ColumnOne,
-	Form,
-	Label,
-	InputTextArea,
-	InputText,
-	ColumnTwo,
-	Img,
-	ImgContainer,
-	FormButton,
-} from './DummyElements';
-
 const Dummy = () => {
-
-
 	return (
 		<div className='Dummy'>
 			<form name='contact' action='/' method='POST'>
