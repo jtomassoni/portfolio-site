@@ -6,6 +6,7 @@ import Skills from '../components/Skills';
 import Projects from '../components/Projects';
 import Sidebar from '../components/Sidebar';
 import Contact from '../components/Contact';
+import ResumeModal from '../components/ResumeModal';
 
 const Home = () => {
 	const [isOpen, setIsOpen] = useState(false);
