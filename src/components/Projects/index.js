@@ -6,7 +6,6 @@ import bookingcal from '../../images/icons/bookingcal.svg';
 import gaming from '../../images/icons/gaming.svg';
 import campfire from '../../images/icons/campfire.svg';
 
-
 import {
 	ProjectsContainer,
 	ProjectsH1,
@@ -15,25 +14,30 @@ import {
 	ProjectsIcon,
 	ProjectsH2,
 	ProjectsP,
-	TechList
+	TechList,
 } from './ProjectsElements';
 
 const Projects = () => {
+	let steak = 'https://www.921steak.com';
+	let botanicalbabble = 'http://bbfe.herokuapp.com/';
+	let jtx = 'http://jtx.herokuapp.com/';
+	let jttower = 'https://jtomassoni.github.io/';
+
 	return (
 		<ProjectsContainer id='projects'>
 			<ProjectsH1>My Projects</ProjectsH1>
 			<ProjectsWrapper>
-				<ProjectsCard>
+				<ProjectsCard href={steak}>
 					<ProjectsIcon src={eating} />
 					<ProjectsH2>921steak</ProjectsH2>
 					<ProjectsP>
-						Full-Stack SPA as a demo to  sell websites to medium-sized
-						restaurant groups.
+						Full-Stack SPA as a demo to sell websites to medium-sized restaurant
+						groups.
 					</ProjectsP>
 					<TechList>React, Python, Django, Styled Components</TechList>
 				</ProjectsCard>
 
-				<ProjectsCard>
+				<ProjectsCard href={botanicalbabble}>
 					<ProjectsIcon src={gardening} />
 					<ProjectsH2>Botanical Babble</ProjectsH2>
 					<ProjectsP>
@@ -43,7 +47,7 @@ const Projects = () => {
 					<TechList>React, Express, Node, CSS </TechList>
 				</ProjectsCard>
 
-				<ProjectsCard>
+				<ProjectsCard href={jtx}>
 					<ProjectsIcon src={rocket} />
 					<ProjectsH2>JTX</ProjectsH2>
 					<ProjectsP>
@@ -52,7 +56,7 @@ const Projects = () => {
 					</ProjectsP>
 					<TechList>React, React Bootstrap, RESTful API</TechList>
 				</ProjectsCard>
-				<ProjectsCard>
+				<ProjectsCard href={jttower}>
 					<ProjectsIcon src={gaming} />
 					<ProjectsH2>Tower of Hanoi</ProjectsH2>
 					<ProjectsP>
@@ -63,19 +67,19 @@ const Projects = () => {
 					<TechList>Javascript, HTML, CSS</TechList>
 				</ProjectsCard>
 
-				<ProjectsCard>
+				<ProjectsCard href='https://fareharbor.com'>
 					<ProjectsIcon src={bookingcal} />
 					<ProjectsH2>Client Bookability</ProjectsH2>
 					<ProjectsP>
-						Spearheaded global company-wide internal project ensuring bookability for clientbase,
-						retention of $70M in 2020 revenue.
+						Spearheaded global company-wide internal project ensuring
+						bookability for clientbase, retention of $70M in 2020 revenue.
 					</ProjectsP>
 					<TechList>Excel, Tablaeu, MailChimp</TechList>
 				</ProjectsCard>
 
-				<ProjectsCard>
+				<ProjectsCard href='https://algonquinoutfitters.com/'>
 					<ProjectsIcon src={campfire} />
-					<ProjectsH2>Agonquin Outfitters</ProjectsH2>
+					<ProjectsH2>Algonquin Outfitters</ProjectsH2>
 					<ProjectsP>
 						Designed online inventory and scheduling platform for nine-location
 						outfitting and rental company, est CA$20M in 2019 revenue.

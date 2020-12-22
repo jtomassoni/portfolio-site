@@ -15,7 +15,6 @@ import {
 	SkillsCard,
 	SkillsIcon,
 	SkillsH2,
-	SkillsP,
 } from './SkillsElements';
 
 const Skills = () => {

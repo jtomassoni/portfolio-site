@@ -13,26 +13,23 @@ import {
 	Img,
 	ImgContainer,
 	FormButton,
-	InputSelect,
 } from './ContactElements';
 
 const Contact = () => {
 	const [contact, setContact] = useState();
 	const [name, setName] = useState();
 	const [email, setEmail] = useState();
-	const [inquiry, setInquiry] = useState();
 
 	return (
 		<Container altBg={true} id='contact'>
 			<Wrapper>
 				<Row imgPosition={true}>
 					<ColumnOne>
-						<Form>
+						<Form name='contact-form' method='POST' netlify>
 							<h1>Contact Me:</h1>
 							<Label htmlFor='name'>Name:</Label>
 							<InputTextArea
 								type='text'
-								rows='3'
 								name='name'
 								id='name'
 								form='nameform'
@@ -41,8 +38,7 @@ const Contact = () => {
 							/>
 							<Label htmlFor='email'>Email:</Label>
 							<InputTextArea
-								type='text'
-								rows='3'
+								type='email'
 								name='email'
 								id='email'
 								form='emailform'

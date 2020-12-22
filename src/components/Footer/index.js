@@ -31,13 +31,13 @@ const Footer = () => {
 						</WebsiteRights>
 						<SocialIcons>
 							<SocialIconLink
-								href='/https://github.com/jtomassoni'
+								href='https://www.github.com/jtomassoni'
 								target='_blank'
 								aria-label='Github'>
 								<FaGithub />
 							</SocialIconLink>
 							<SocialIconLink
-								href='//www.linkedin.com/in/jtomassoni'
+								href='https://www.linkedin.com/in/jtomassoni'
 								target='_blank'
 								aria-label='Linkedin'>
 								<FaLinkedin />
