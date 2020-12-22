@@ -16,11 +16,16 @@ import React from 'react';
 // 	FormButton,
 // } from './DummyElements';
 
+import { Form, InputText } from './DummyElements';
+
 const Contact = () => {
 	
 
 	return (
-		<div> Dummy</div>
+		<Form name='example' method='POST' netlify>
+			<InputText name='something' type='text'>
+			</InputText>
+		</Form>
 		// <Container altBg={true} id='contact'>
 		// 	<Wrapper>
 		// 		<Row imgPosition={true}>
