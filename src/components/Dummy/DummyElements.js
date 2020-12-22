@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-	background: #010415;
+	background: white;
 	color: #00000;
 	bottom: 0;
 	left: 0;
@@ -15,6 +15,7 @@ export const Container = styled.div`
 		padding: 100px 0;
 	}
 	@media screen and (max-width: 400px) {
+		padding: 100px 0;
 	}
 `;
 

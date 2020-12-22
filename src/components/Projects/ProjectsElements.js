@@ -8,6 +8,10 @@ export const ProjectsContainer = styled.div`
 	align-items: center;
 	background: #010415;
 
+	@media screen and (max-width: 959px) {
+		height: 1500px;
+	}
+
 	@media screen and (max-width: 768px) {
 		height: 2800px;
 	}
