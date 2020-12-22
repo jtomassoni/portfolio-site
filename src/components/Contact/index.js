@@ -25,7 +25,7 @@ const Contact = () => {
 			<Wrapper>
 				<Row imgPosition={true}>
 					<ColumnOne>
-						<Form name='contact-form' data-netlify='true'>
+						<Form name='contact-form' method='POST' netlify>
 							<h1>Contact Me:</h1>
 							<Label htmlFor='name'>Name:</Label>
 							<InputTextArea
