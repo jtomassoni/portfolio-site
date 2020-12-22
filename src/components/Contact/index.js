@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
-import contactpic from '../../images/icons/contact.svg';
+// import contactpic from '../../images/icons/contact.svg';
 
-import {
-	Container,
-	Wrapper,
-	Row,
-	ColumnOne,
-	Form,
-	Label,
-	InputTextArea,
-	InputText,
-	ColumnTwo,
-	Img,
-	ImgContainer,
-	FormButton,
-} from './ContactElements';
+// import {
+// 	Container,
+// 	Wrapper,
+// 	Row,
+// 	ColumnOne,
+// 	Form,
+// 	Label,
+// 	InputTextArea,
+// 	InputText,
+// 	ColumnTwo,
+// 	Img,
+// 	ImgContainer,
+// 	FormButton,
+// } from './ContactElements';
 
 const Contact = () => {
 	const [contact, setContact] = useState();
