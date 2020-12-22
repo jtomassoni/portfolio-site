@@ -1,15 +1,26 @@
 import React from 'react';
 
+import {
+	Container,
+	Wrapper,
+	Row,
+	ColumnOne,
+	Form,
+	Label,
+	InputTextArea,
+	InputText,
+	ColumnTwo,
+	Img,
+	ImgContainer,
+	FormButton,
+} from './DummyElements';
+
 const Dummy = () => {
-	const formStyles = {
-		display: 'flex',
-		flexDirection: 'column',
-		margin: '40px',
-	};
+
 
 	return (
 		<div className='Dummy'>
-			<form style={formStyles} name='contact' action='/' method='POST'>
+			<form name='contact' action='/' method='POST'>
 				<input required type='hidden' name='form-name' value='contact' />
 				<input required type='text' name='name' placeholder='Your name' />
 				<input

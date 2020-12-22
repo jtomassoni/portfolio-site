@@ -17,42 +17,41 @@ import {
 } from './ContactElements';
 
 const Contact = () => {
-	const [contact, setContact] = useState();
-	const [name, setName] = useState();
-	const [email, setEmail] = useState();
+	// const [contact, setContact] = useState();
+	// const [name, setName] = useState();
+	// const [email, setEmail] = useState();
 
 	return (
 		<Container altBg={true} id='contact'>
 			<Wrapper>
 				<Row imgPosition={true}>
 					<ColumnOne>
-						<Form>
-							<h1>Contact Me:</h1>
+						<h1>Contact Me:</h1>
+						<Form name='contact' action='/' method='POST'>
+							<input required type='hidden' name='form-name' value='contact' />
 							<Label htmlFor='name'>Name:</Label>
 							<InputText
 								type='text'
 								name='name'
-								onChange={(event) => setName(event.target.value)}
-								value={name}
+								// onChange={(event) => setName(event.target.value)}
+								// value={name}
 							/>
 							<Label htmlFor='email'>Email:</Label>
 							<InputText
 								type='email'
 								name='email'
-								onChange={(event) => setEmail(event.target.value)}
-								value={email}
+								// onChange={(event) => setEmail(event.target.value)}
+								// value={email}
 							/>
-							<Label htmlFor='additionalDetails'>Comments:</Label>
+							<Label htmlFor='message'>Message:</Label>
 							<InputTextArea
 								type='text'
+								name='message'
 								rows='8'
-								name='details'
-								id='details'
-								form='detailsform'
-								onChange={(event) => setContact(event.target.value)}
-								value={contact}
+								// onChange={(event) => setContact(event.target.value)}
+								// value={contact}
 							/>
-							<FormButton>Submit</FormButton>
+							<FormButton type='submit'>Submit</FormButton>
 						</Form>
 					</ColumnOne>
 					<ColumnTwo>
