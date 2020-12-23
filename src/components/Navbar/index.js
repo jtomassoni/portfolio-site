@@ -52,7 +52,7 @@ const Navbar = ({ toggle }) => {
 									spy={true}
 									exact='true'
 									offset={-80}>
-									projects
+									Projects
 								</NavLinks>
 							</NavItem>
 							<NavItem>
@@ -63,7 +63,7 @@ const Navbar = ({ toggle }) => {
 									spy={true}
 									exact='true'
 									offset={-80}>
-									skills
+									Skills
 								</NavLinks>
 							</NavItem>
 							<NavItem>
@@ -74,11 +74,11 @@ const Navbar = ({ toggle }) => {
 									spy={true}
 									exact='true'
 									offset={-80}>
-									contact
+									Contact
 								</NavLinks>
 							</NavItem>
 							<NavItem>
-								<NavBtnLink to='../../assets/_James Tomassoni Resume.pdf'>
+								<NavBtnLink to='../../assets/_JamesTomassoniResume.pdf'>
 									Resume
 								</NavBtnLink>
 							</NavItem>
