@@ -6,7 +6,10 @@ import {
 	SidebarWrapper,
 	SidebarMenu,
 	SidebarLink,
+	SidebarRoute,
 } from './SidebarElements';
+
+import Resume from '../../assets/JamesTomassoniResume.pdf';
 
 const Sidebar = ({ isOpen, toggle }) => {
 	return (
@@ -28,9 +31,9 @@ const Sidebar = ({ isOpen, toggle }) => {
 					<SidebarLink to='contact' onClick={toggle}>
 						Contact
 					</SidebarLink>
-					<SidebarLink to='contact' onClick={toggle}>
+					<SidebarRoute href={Resume} aria-label='Resume' onClick={toggle}>
 						Resume
-					</SidebarLink>
+					</SidebarRoute>
 				</SidebarMenu>
 			</SidebarWrapper>
 		</SidebarContainer>
