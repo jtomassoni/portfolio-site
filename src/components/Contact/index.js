@@ -24,8 +24,8 @@ const Contact = () => {
 			<Wrapper>
 				<Row imgPosition={true}>
 					<ColumnOne>
-						<h1>Contact Me:</h1>
 						<Form name='contact' action='/' method='POST'>
+							<h1>Contact Me:</h1>
 							<input required type='hidden' name='form-name' value='contact' />
 							<Label htmlFor='name'>Name:</Label>
 							<InputText
