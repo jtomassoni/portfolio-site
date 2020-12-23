@@ -111,21 +111,21 @@ export const NavBtn = styled.nav`
 `;
 
 export const NavBtnLink = styled(LinkR)`
-	border-radius: 50px;
-    background: #01bf71;
-    white-space: nowrap;
-    padding: 10px 22px;
-    color: #010606;
-    font-size: 16px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    text-decoration: none;
+	color: #fff;
+	display: flex;
+	font-size: 2rem;
+	align-items: center;
+	text-decoration: none;
+	padding: 0 1rem;
+	height: 100%;
+	cursor: pointer;
 
-    &:hover{
-        transition: all 0.2s ease-in-out
-        background: #fff;
-        color: #010606;
-    }
+	&.active {
+		border-bottom: 3px solid #306d90;
+	}
+
+	&:hover {
+		color: #306d90;
+		transition: 0.2 ease-in-out;
+	}
 `;

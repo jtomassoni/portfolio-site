@@ -1,5 +1,5 @@
 import React from 'react';
-import contactpic from '../../images/icons/contact.svg';
+import contactpic from '../../assets/icons/contact.svg';
 
 import {
 	Container,

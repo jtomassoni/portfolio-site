@@ -1,10 +1,10 @@
 import React from 'react';
-import eating from '../../images/icons/eating.svg';
-import gardening from '../../images/icons/gardening.svg';
-import rocket from '../../images/icons/rocket.svg';
-import bookingcal from '../../images/icons/bookingcal.svg';
-import gaming from '../../images/icons/gaming.svg';
-import campfire from '../../images/icons/campfire.svg';
+import eating from '../../assets/icons/eating.svg';
+import gardening from '../../assets/icons/gardening.svg';
+import rocket from '../../assets/icons/rocket.svg';
+import bookingcal from '../../assets/icons/bookingcal.svg';
+import gaming from '../../assets/icons/gaming.svg';
+import campfire from '../../assets/icons/campfire.svg';
 
 import {
 	ProjectsContainer,

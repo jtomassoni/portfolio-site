@@ -1,12 +1,12 @@
 import React from 'react';
-import django from '../../images/logos/django.svg';
-import express from '../../images/logos/express.svg';
-import html5 from '../../images/logos/html5.png';
-import js from '../../images/logos/js.png';
-import node from '../../images/logos/node.svg';
-import python from '../../images/logos/python.svg';
-import react from '../../images/logos/react.svg';
-import css3 from '../../images/logos/css3.svg';
+import django from '../../assets/logos/django.svg';
+import express from '../../assets/logos/express.svg';
+import html5 from '../../assets/logos/html5.png';
+import js from '../../assets/logos/js.png';
+import node from '../../assets/logos/node.svg';
+import python from '../../assets/logos/python.svg';
+import react from '../../assets/logos/react.svg';
+import css3 from '../../assets/logos/css3.svg';
 
 import {
 	SkillsContainer,

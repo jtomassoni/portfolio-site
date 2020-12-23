@@ -10,6 +10,7 @@ import {
 	NavMenu,
 	NavItem,
 	NavLinks,
+	NavBtnLink,
 } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
@@ -75,6 +76,11 @@ const Navbar = ({ toggle }) => {
 									offset={-80}>
 									contact
 								</NavLinks>
+							</NavItem>
+							<NavItem>
+								<NavBtnLink to='../../assets/_James Tomassoni Resume.pdf'>
+									Resume
+								</NavBtnLink>
 							</NavItem>
 						</NavMenu>
 					</NavbarContainer>
