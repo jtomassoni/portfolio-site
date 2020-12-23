@@ -5,11 +5,14 @@ export const Container = styled.div`
 	color: #00000;
 	bottom: 0;
 	left: 0;
-	min-height: 700px;
+	min-height: 800px;
 	overflow: hidden;
 	right: 0;
 	top: 0;
 	z-index: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 
 	@media screen and (max-width: 780px) {
 		padding: 100px 0;
@@ -125,4 +128,18 @@ export const InputTextArea = styled.textarea`
 export const InputText = styled.input`
 	width: 100%;
 	resize: none;
+`;
+
+export const H1 = styled.h1`
+	color: #ffffff;
+	font-size: 48px;
+	text-align: center;
+
+	@media screen and(max-width: 768px) {
+		font-size: 40px;
+	}
+
+	@media screen and (max-width: 480px) {
+		font-size: 32px;
+	}
 `;

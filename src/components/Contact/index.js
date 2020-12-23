@@ -14,6 +14,7 @@ import {
 	Img,
 	ImgContainer,
 	FormButton,
+	H1,
 } from './ContactElements';
 
 const Contact = () => {
@@ -22,10 +23,10 @@ const Contact = () => {
 	return (
 		<Container altBg={true} id='contact'>
 			<Wrapper>
+							<H1>Contact Me:</H1>
 				<Row imgPosition={true}>
 					<ColumnOne>
 						<Form name='contact' action='/' method='POST'>
-							<h1>Contact Me:</h1>
 							<input required type='hidden' name='form-name' value='contact' />
 							<Label htmlFor='name'>Name:</Label>
 							<InputText
