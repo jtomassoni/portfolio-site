@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const SkillsContainer = styled.div`
-	height: 1100px;
+	height: 1050px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -69,7 +69,7 @@ export const SkillsIcon = styled.img`
 export const SkillsH1 = styled.h1`
 	font-size: 2.5rem;
 	color: #010415;
-	margin: 64px;
+	margin: 25px;
 
 	@media screen and (max-width: 80px) {
 		font-size: 2rem;

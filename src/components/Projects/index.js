@@ -27,7 +27,7 @@ const Projects = () => {
 		<ProjectsContainer id='projects'>
 			<ProjectsH1>My Projects</ProjectsH1>
 			<ProjectsWrapper>
-				<ProjectsCard href={steak}>
+				<ProjectsCard href={steak} target='_blank'>
 					<ProjectsIcon src={eating} />
 					<ProjectsH2>921steak</ProjectsH2>
 					<ProjectsP>
@@ -37,7 +37,7 @@ const Projects = () => {
 					<TechList>React, Python, Django, Styled Components</TechList>
 				</ProjectsCard>
 
-				<ProjectsCard href={botanicalbabble}>
+				<ProjectsCard href={botanicalbabble} target='_blank'>
 					<ProjectsIcon src={gardening} />
 					<ProjectsH2>Botanical Babble</ProjectsH2>
 					<ProjectsP>
@@ -47,7 +47,7 @@ const Projects = () => {
 					<TechList>React, Express, Node, CSS </TechList>
 				</ProjectsCard>
 
-				<ProjectsCard href={jtx}>
+				<ProjectsCard href={jtx} target='_blank'>
 					<ProjectsIcon src={rocket} />
 					<ProjectsH2>JTX</ProjectsH2>
 					<ProjectsP>
@@ -56,7 +56,7 @@ const Projects = () => {
 					</ProjectsP>
 					<TechList>React, React Bootstrap, RESTful API</TechList>
 				</ProjectsCard>
-				<ProjectsCard href={jttower}>
+				<ProjectsCard href={jttower} target='_blank'>
 					<ProjectsIcon src={gaming} />
 					<ProjectsH2>Tower of Hanoi</ProjectsH2>
 					<ProjectsP>
@@ -67,17 +67,7 @@ const Projects = () => {
 					<TechList>Javascript, HTML, CSS</TechList>
 				</ProjectsCard>
 
-				<ProjectsCard href='https://fareharbor.com'>
-					<ProjectsIcon src={bookingcal} />
-					<ProjectsH2>Client Bookability</ProjectsH2>
-					<ProjectsP>
-						Spearheaded global company-wide internal project ensuring
-						bookability for clientbase, retention of $70M in 2020 revenue.
-					</ProjectsP>
-					<TechList>Excel, Tablaeu, MailChimp</TechList>
-				</ProjectsCard>
-
-				<ProjectsCard href='https://algonquinoutfitters.com/'>
+				<ProjectsCard href='https://algonquinoutfitters.com/' target='_blank'>
 					<ProjectsIcon src={campfire} />
 					<ProjectsH2>Algonquin Outfitters</ProjectsH2>
 					<ProjectsP>
@@ -85,6 +75,16 @@ const Projects = () => {
 						outfitting and rental company, est CA$20M in 2019 revenue.
 					</ProjectsP>
 					<TechList>FareHarborCMS, Close.io</TechList>
+				</ProjectsCard>
+
+				<ProjectsCard href='https://fareharbor.com' target='_blank'>
+					<ProjectsIcon src={bookingcal} />
+					<ProjectsH2>Client Bookability</ProjectsH2>
+					<ProjectsP>
+						Spearheaded global company-wide internal project ensuring
+						bookability for clientbase, retention of $70M in 2020 revenue.
+					</ProjectsP>
+					<TechList>Excel, Tablaeu, MailChimp</TechList>
 				</ProjectsCard>
 			</ProjectsWrapper>
 		</ProjectsContainer>
