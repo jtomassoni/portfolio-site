@@ -110,7 +110,7 @@ export const NavBtn = styled.nav`
 	}
 `;
 
-export const NavBtnLink = styled(LinkR)`
+export const NavBtnLink = styled.a`
 	color: #fff;
 	display: flex;
 	font-size: 2rem;

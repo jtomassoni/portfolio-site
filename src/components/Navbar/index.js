@@ -13,6 +13,8 @@ import {
 	NavBtnLink,
 } from './NavbarElements';
 
+import Resume from '../../assets/JamesTomassoniResume.pdf';
+
 const Navbar = ({ toggle }) => {
 	const [scrollNav, setScrollNav] = useState(false);
 
@@ -78,7 +80,7 @@ const Navbar = ({ toggle }) => {
 								</NavLinks>
 							</NavItem>
 							<NavItem>
-								<NavBtnLink to='../../assets/_JamesTomassoniResume.pdf'>
+								<NavBtnLink href={Resume} aria-label='Resume'>
 									Resume
 								</NavBtnLink>
 							</NavItem>
