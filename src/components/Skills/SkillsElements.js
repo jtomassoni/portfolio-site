@@ -22,7 +22,7 @@ export const SkillsContainer = styled.div`
 `;
 
 export const SkillsWrapper = styled.div`
-	max-width: 1000px;
+	max-width: 1200px;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -45,7 +45,7 @@ export const SkillsCard = styled.div`
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	border-radius: 10px;
+	border-radius: 20px;
 	max-height: 400px;
 	width: 300px;
 	padding: 30px;

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ProjectsContainer = styled.div`
-	height: 1000px;
+	height: 1100px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -22,11 +22,10 @@ export const ProjectsContainer = styled.div`
 `;
 
 export const ProjectsWrapper = styled.div`
-	max-width: 1000px;
+	max-width: 1200px;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	align-items: center;
 	grid-gap: 50px;
 	padding: 0 50px;
 
@@ -45,7 +44,7 @@ export const ProjectsCard = styled.a`
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	border-radius: 10px;
+	border-radius: 20px;
 	max-height: 420px;
 	width: 300px;
 	padding: 30px;
