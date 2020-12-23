@@ -93,7 +93,7 @@ export const ProjectsP = styled.p`
 	border-bottom: 1px #000000 solid;
 
 	&:hover {
-		border-bottom: 1px #ffffff solid;
+		border-bottom: 1px #000000 solid;
 	}
 `;
 export const TechList = styled.p`

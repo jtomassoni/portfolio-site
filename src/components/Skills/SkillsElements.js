@@ -54,10 +54,8 @@ export const SkillsCard = styled.div`
 
 	&:hover {
 		transform: scale(1.02);
-		background-color: #010415;
-		color: #306d90;
+		background-color: #306d90;
 		transition: all 0.2s ease-in-out;
-		cursor: pointer;
 	}
 `;
 
