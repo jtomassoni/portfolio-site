@@ -41,7 +41,7 @@ const Projects = () => {
 					<ProjectsIcon src={gardening} />
 					<ProjectsH2>Botanical Babble</ProjectsH2>
 					<ProjectsP>
-						Full-Stack ocial media style SPA, users can view, edit and create
+						Full-Stack social media style SPA, users can view, edit and create
 						content as well engage within plant community.
 					</ProjectsP>
 					<TechList>React, Express, Node, CSS </TechList>
@@ -84,7 +84,7 @@ const Projects = () => {
 						Spearheaded global company-wide internal project ensuring
 						bookability for clientbase, retention of $70M in 2020 revenue.
 					</ProjectsP>
-					<TechList>Excel, Tablaeu, MailChimp</TechList>
+					<TechList>Excel, Tableau, MailChimp</TechList>
 				</ProjectsCard>
 			</ProjectsWrapper>
 		</ProjectsContainer>

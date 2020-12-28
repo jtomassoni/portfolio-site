@@ -27,7 +27,6 @@ export const NavbarContainer = styled.div`
 	width: 100%;
 	padding: 0 24px;
 	max-width: 1100px;
-
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -111,21 +110,17 @@ export const NavBtn = styled.nav`
 `;
 
 export const NavBtnLink = styled.a`
-	color: #fff;
+	color: #1eff37;
 	display: flex;
-	font-size: 2rem;
+	font-size: 2.5rem;
 	align-items: center;
 	text-decoration: none;
 	padding: 0 1rem;
 	height: 100%;
 	cursor: pointer;
 
-	&.active {
-		border-bottom: 3px solid #306d90;
-	}
-
 	&:hover {
-		color: #306d90;
+		color: #ffffff;
 		transition: 0.2 ease-in-out;
 	}
 `;

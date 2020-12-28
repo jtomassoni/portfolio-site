@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 
 export const ProjectsContainer = styled.div`
-	height: 1050px;
+	height: 1100px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	background: #010415;
 
-	@media screen and (max-width: 959px) {
+	@media screen and (max-width: 960px) {
 		height: 1500px;
 	}
 
@@ -16,9 +16,6 @@ export const ProjectsContainer = styled.div`
 		height: 2800px;
 	}
 
-	@media screen and (max-width: 480px) {
-		height: 2800px;
-	}
 `;
 
 export const ProjectsWrapper = styled.div`

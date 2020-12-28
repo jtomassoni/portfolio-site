@@ -1,22 +1,18 @@
 import styled from 'styled-components';
 
 export const SkillsContainer = styled.div`
-	height: 1050px;
+	height: 1100px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	background: #f9f9f9;
 
-	@media screen and (max-width: 959px) {
-		height: 1500px;
+	@media screen and (max-width: 960px) {
+		height: 1400px;
 	}
 
 	@media screen and (max-width: 768px) {
-		height: 2700px;
-	}
-
-	@media screen and (max-width: 480px) {
 		height: 2700px;
 	}
 `;

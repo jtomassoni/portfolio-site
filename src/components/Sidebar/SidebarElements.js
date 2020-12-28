@@ -69,18 +69,18 @@ export const SideBtnWrap = styled.div`
 `;
 
 export const SidebarRoute = styled.a`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    text-decoration: none;
-    list-style: none;
-    transition: 0.2s ease-in-out;
-    color: #fff
-    cursor: pointer;
-    
-    &:hover{
-        color: #306D90;
-        transition: 0.2 ease-in-out;
-    }
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5rem;
+	text-decoration: none;
+	list-style: none;
+	transition: 0.2s ease-in-out;
+	color: #1eff37;
+	cursor: pointer;
+
+	&:hover {
+		color: #ffffff;
+		transition: 0.2 ease-in-out;
+	}
 `;
