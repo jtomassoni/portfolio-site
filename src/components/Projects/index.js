@@ -71,7 +71,8 @@ const Projects = () => {
 					<ProjectsIcon src={campfire} />
 					<ProjectsH2>Code Finnese</ProjectsH2>
 					<ProjectsP>
-						Contributor and Moderator, Collection of 'help docs' for new
+						Contributor and Moderator, Collection of instructional
+						documentation, from beginner to intermediate content for new
 						programmers.
 					</ProjectsP>
 					<TechList>Git, Github</TechList>
