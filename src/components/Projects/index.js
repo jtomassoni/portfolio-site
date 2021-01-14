@@ -67,14 +67,14 @@ const Projects = () => {
 					<TechList>Javascript, HTML, CSS</TechList>
 				</ProjectsCard>
 
-				<ProjectsCard href='https://algonquinoutfitters.com/' target='_blank'>
+				<ProjectsCard href='https://github.com/code-finesse/' target='_blank'>
 					<ProjectsIcon src={campfire} />
-					<ProjectsH2>Algonquin Outfitters</ProjectsH2>
+					<ProjectsH2>Code Finnese</ProjectsH2>
 					<ProjectsP>
-						Designed online inventory and scheduling platform for nine-location
-						outfitting and rental company, est CA$20M in 2019 revenue.
+						Contributor and Moderator, Collection of 'help docs' for new
+						programmers.
 					</ProjectsP>
-					<TechList>FareHarborCMS, Close.io</TechList>
+					<TechList>Git, Github</TechList>
 				</ProjectsCard>
 
 				<ProjectsCard href='https://fareharbor.com' target='_blank'>
