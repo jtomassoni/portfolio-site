@@ -37,6 +37,17 @@ const Projects = () => {
 					<TechList>React, Python, Django, Styled Components</TechList>
 				</ProjectsCard>
 
+				<ProjectsCard href='https://github.com/code-finesse/' target='_blank'>
+					<ProjectsIcon src={campfire} />
+					<ProjectsH2>Code Finnese</ProjectsH2>
+					<ProjectsP>
+						Contributor and Moderator, Collection of instructional
+						documentation, from beginner to intermediate content for new
+						programmers.
+					</ProjectsP>
+					<TechList>Git, Github</TechList>
+				</ProjectsCard>
+
 				<ProjectsCard href={botanicalbabble} target='_blank'>
 					<ProjectsIcon src={gardening} />
 					<ProjectsH2>Botanical Babble</ProjectsH2>
@@ -56,6 +67,7 @@ const Projects = () => {
 					</ProjectsP>
 					<TechList>React, React Bootstrap, RESTful API</TechList>
 				</ProjectsCard>
+
 				<ProjectsCard href={jttower} target='_blank'>
 					<ProjectsIcon src={gaming} />
 					<ProjectsH2>Tower of Hanoi</ProjectsH2>
@@ -65,17 +77,6 @@ const Projects = () => {
 						towers.
 					</ProjectsP>
 					<TechList>Javascript, HTML, CSS</TechList>
-				</ProjectsCard>
-
-				<ProjectsCard href='https://github.com/code-finesse/' target='_blank'>
-					<ProjectsIcon src={campfire} />
-					<ProjectsH2>Code Finnese</ProjectsH2>
-					<ProjectsP>
-						Contributor and Moderator, Collection of instructional
-						documentation, from beginner to intermediate content for new
-						programmers.
-					</ProjectsP>
-					<TechList>Git, Github</TechList>
 				</ProjectsCard>
 
 				<ProjectsCard href='https://fareharbor.com' target='_blank'>
